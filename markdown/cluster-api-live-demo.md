@@ -139,3 +139,4 @@ kubectl delete machine
 - https://github.com/kubernetes-sigs/kind
 - https://github.com/hetznercloud/hcloud-cloud-controller-manager
 - https://github.com/cilium/cilium
+- https://github.com/Atomsoldat/presentations

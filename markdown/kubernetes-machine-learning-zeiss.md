@@ -232,4 +232,5 @@ tldr: |
 - https://github.com/hetznercloud/hcloud-cloud-controller-manager
 - https://github.com/cilium/cilium
 - https://github.com/istio/istio
+- https://github.com/Atomsoldat/presentations/
 
