@@ -96,8 +96,8 @@ KUBECONFIG=$CAPH_WORKER_CLUSTER_KUBECONFIG helm upgrade --install cilium cilium/
 ```
 
 
-## Installing - CCM
-Without a Cloud Controller Manager deployment in the workload cluster, nodes will not be correctly labelled with the provider IDs and Cluster API will not properly scale the cluster
+## Installing Cloud Controller Manager
+Without a CCM deployment in the workload cluster, nodes will not be correctly labelled with the provider IDs and Cluster API will not properly scale the cluster
 ```{.bash size="scriptsize"}
 # will be applied to hetzner cluster because of the KUBECONFIG env var
 kubectl --kubeconfig $CAPH_WORKER_CLUSTER_KUBECONFIG -n kube-system \
