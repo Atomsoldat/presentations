@@ -1,5 +1,5 @@
 ## Dependencies
-- [https://github.com/cagix/pandoc-lecture](pandoc-lecture)
+- [pandoc-lecture](https://github.com/cagix/pandoc-lecture)
 
 ## How to build
 
