@@ -1,0 +1,5 @@
+lang: en-EN
+#institute: "CIT – Center for Information Technology"
+institute: ""
+bibliography: linux.bib
+link-citations: true
