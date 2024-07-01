@@ -130,6 +130,13 @@ tldr: |
 - Restrict container processes using AppArmor / SELinux
 - No need to provide tools and opportunities for attackers who successfully compromised a node
 
+## Backups
+- All code repositories should be regularly backed up
+- The state of the cluster should regularly be backed up using e.g. Velero
+- Any precious data should also be considered for this
+  - Being able to recover quickly from failures and breaches is part of providing a stable service
+- The backup location should only allow remote writes, expiring items after a set time has elapsed
+
 # Machine Learning Tool Selection
 
 ## Selection of ML-Tools - MLFlow
@@ -165,8 +172,7 @@ tldr: |
 - MLFlow is easier to start out with, Kubeflow has more advanced features you may want later
 - MLFlow and Kubeflow can complement each other, because they have different strong points
   - I am already familiar with all of the external dependencies Kubeflow relies on, so that is less of an issue
-  - if Zeiss ever wants to provide ML services for  non scientific purposes (e.g. medical diagnostics), using a purpose built solution for serving them is going to pay off 
-  - If you just want som
+  - If Zeiss ever wants to provide ML services for  non scientific purposes (e.g. medical diagnostics), using a purpose built solution for serving them is going to pay off 
 
 ## Microservice Deployment
 
