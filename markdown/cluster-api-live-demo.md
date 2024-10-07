@@ -41,7 +41,7 @@ kubectl get pod -A
 
 Some variables need to be set for the following steps:
 ```{.bash size="scriptsize"}
-export HCLOUD_SSH_KEY="your-throwaway-ssh-key" \
+export HCLOUD_SSH_KEY="<YOUR_SSH_KEY>" \
 export CLUSTER_NAME="my-cluster" \
 export HCLOUD_REGION="fsn1" \
 export CONTROL_PLANE_MACHINE_COUNT="3" \

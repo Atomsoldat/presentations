@@ -36,14 +36,6 @@ tldr: |
 - System Architect
 - Cloud Architect
 
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-
 ## Assumptions and Context
 - The security suggestions made in this presentation are not a complete laundry list to start handling patient data, but rather low hanging fruits that will be beneficial no matter what 
   - Your compliance framework of choice will inform your decisions beyond that
@@ -165,8 +157,6 @@ tldr: |
 - MLFlow is easier to start out with, Kubeflow has more advanced features you may want later
 - MLFlow and Kubeflow can complement each other, because they have different strong points
   - I am already familiar with all of the external dependencies Kubeflow relies on, so that is less of an issue
-***REMOVED***
-***REMOVED***
 
 ## Microservice Deployment
 
